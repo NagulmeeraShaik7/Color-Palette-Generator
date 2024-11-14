@@ -1,0 +1,79 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+.color-palette{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    min-height:25vw;
+    min-width:100vw;
+    border-radius: 10px;
+
+}
+
+@media  screen and (min-width:720px) {
+    .App{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+  .palette {
+    display: flex;
+    gap: 5px;
+    margin: 10px;
+  }
+  
+  .color-block {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .saved-palette {
+    margin: 20px 0;
+  }
+  
+  button {
+    margin: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color:black;
+    background-color: beige;
+    border-radius:5px;
+    border-color: transparent;
+  }
+  
+.saved-palettes{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#defded;
+    min-height:100vh;
+    min-width:100vw; 
+    margin:20px;
+    padding:25px; 
+    border-radius: 10px;
+} 
+.save-palette{
+    background-color: greenyellow;
+} 
+
+.generate-palette{
+    background-color: cornflowerblue;
+} 
+
+.delete-button{
+    background-color: red;
+}
